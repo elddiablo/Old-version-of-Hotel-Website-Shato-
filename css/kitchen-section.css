@@ -1,0 +1,351 @@
+/*____________________________________Kitchen____________________________________*/
+.kitchen
+{
+
+	min-height: 100vh;
+	padding: 0;
+	-webkit-box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);
+	-moz-box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);
+	box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);
+	/*background-image: url(http://1b058e7714d2d13876a1-aad8a0b816e372a2d5bdc4d902569b72.r62.cf1.rackcdn.com/XLGallery/1600x900_WonderfulDoubleQueen.jpg);*/
+	/*background-image: url(http://ad5328bdca30cc7855b5-70e319b9ce51dde062ed00e2bb19041b.r95.cf1.rackcdn.com/XLGallery/Fabulous-Deck-Room.jpg);*/
+	background-position: cover;
+	background-color: #272726;
+	padding-bottom: 2em;
+
+}
+
+.kitchen .custom_height
+{
+	height: 30em;
+}
+.kitchen .kitchen_area
+{
+	/*height: 75em;*/
+	width: 80%;
+}
+.kitchen .kitchen_row
+{
+	/*height: 65em;*/
+	padding-top: 2em;
+}
+.kitchen .kitchen_area .kitchen_area_item
+{
+	padding: 0% 2%;	
+}
+.kitchen .title_inner_kitchen
+{
+	padding-bottom: 3em;	
+}
+.kitchen .title_inner_kitchen h1
+{
+	margin: 0;
+	text-transform: uppercase;
+	color: white;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	letter-spacing: 0.1em;
+}
+.kitchen .title_inner_kitchen .h1_line
+{
+	height: 2px;
+	background-color: white;
+	width: 18%;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+	/*margin-top: 2%;*/
+}
+.kitchen .describtion_inner_kitchen
+{
+	/*border: 1px dashed white;*/
+	background-color: rgba(0,0,0,0.5);
+	overflow: auto;
+	height: 40em;
+}
+.kitchen .describtion_inner_kitchen h1
+{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	margin: 0;
+	padding-top: 1em;
+	font-size: 2em;
+	letter-spacing: 0.1em;
+}
+.kitchen .describtion_inner_kitchen p
+{ 
+	padding-top: 1em;
+	font-size: 1.5em;
+	color: white;
+	font-weight: light;
+	/*height: 55%;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0;
+
+}
+
+.kitchen .describtion_inner_kitchen ul
+{
+	padding: 0;
+	padding-left: 2.5em;
+	margin: 0;
+	padding-top: 1em;
+}
+.kitchen .describtion_inner_kitchen ul li
+{
+	color: white;
+	font-size: 1.3em;
+
+}
+
+
+
+@media (max-width:1400px){
+	.kitchen .col-lg-7, .kitchen .col-lg-5		
+	{
+		width: 100%;
+	}
+	.kitchen .describtion_inner_kitchen h1
+	{
+		font-size: 1.9em;
+		/*padding-top: 3% !important;*/
+	}
+	.kitchen .describtion_inner_kitchen p
+	{ 
+		font-size: 1.3em;
+	}
+	.kitchen .describtion_inner_kitchen ul 
+	{ 
+		font-size: 1.1em;
+	}
+}
+@media (max-width:1200px){
+/*________________________________KITCHEN LAYOUT 1200px!!!!_________________________________*/
+
+
+
+	.kitchen
+	{
+		min-height: 150vh;
+		
+	}
+	.kitchen_extra_place
+	{
+		/*height: 75vh;*/
+		/*background-color: #272726;*/
+	}
+	.kitchen_extra_trigger
+	{
+		/*background-color: rgba(0,0,0,0.6);*/
+	/*border-radius: 40px;*/
+	}
+	.kitchen_extra_place_margin
+	{
+		/*margin-top: 1%;*/
+	}
+	html body .kitchen .kitchen_extra_description
+	{
+		/*height: 75% !important;*/
+	}
+	.kitchen .describtion_inner_kitchen h1
+	{
+		font-size: 1.7em;
+		/*padding-top: 3% !important;*/
+	}
+	.kitchen .title_inner_kitchen h1
+	{
+		/*text-align: center;*/
+	}
+	.kitchen .describtion_inner_kitchen p
+	{ 
+		/*padding-top: 0% !important;*/
+		/*height: 35% !important; */
+	}
+	.kitchen .describtion_inner_kitchen ul 
+	{ 
+		/*height: 30%;*/
+		/*padding-top: 3%;*/
+	}
+
+
+	.kitchen .slider_inner_kitchen
+	{
+		
+	}
+	.kitchen .describtion_inner_kitchen
+	{
+		
+	}
+	.slider_inner_kitchen .inner_slider .slide
+	{
+		
+	}
+}
+@media (max-width:767px){
+
+/*________________________________KITCHEN RESPONSIVE 768PX!!!!________________________________*/
+	
+
+	.kitchen
+	{
+		min-height: 100vh;
+		
+	}
+	.kitchen .kitchen_area_item
+	{
+	}
+	
+	.kitchen_extra_place_margin
+	{
+		margin-top: 2%;
+	}
+	.kitchen_extra_place
+	{
+		background-color: #272726;
+	}
+	.kitchen_extra_trigger
+	{
+		
+	}
+	.kitchen .title_inner_kitchen h1
+	{
+		font-size: 2em;
+	}
+	html body .kitchen .describtion_inner_kitchen
+	{
+		height: 20em;
+	}
+	html body .kitchen .describtion_inner_kitchen h1
+	{
+		font-size: 1.5em;
+	}
+	html body .kitchen .describtion_inner_kitchen p
+	{ 	
+		font-size: 1.3em;
+	}
+	
+	html body .kitchen .kitchen_area_item_inner .describtion_inner_kitchen ul
+	{
+		padding-left: 7%;
+		padding-top: 8%;
+
+	}
+	html body .kitchen .describtion_inner_kitchen ul li
+	{
+		color: white;
+		font-size: 1.2em;
+
+	}
+
+}
+
+
+
+@media (max-width:570px){
+		
+		html body .kitchen .describtion_inner_kitchen p
+		{ 	
+			font-size: 1em !important;
+		}
+
+		}
+@media (max-width:406px){
+		html body .kitchen .describtion_inner_kitchen ul li
+		{
+			font-size: 1em !important;
+		}
+		html body .kitchen .describtion_inner_kitchen ul 
+		{
+			padding-top: 14% !important;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+/*____________________SLIDER____________________*/
+/*
+.slider_inner_kitchen .inner_slider
+{
+	width: 100%;
+	height: 50em;
+	overflow-x: hidden;
+	
+}
+.slider_inner_kitchen .inner_slider .slide_content
+{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+.slider_inner_kitchen .inner_slider .slide_content
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.slider_inner_kitchen .inner_slider .slide_content span
+{
+	font-size: 5rem;
+	color: white;
+}
+.slider_inner_kitchen .inner_slider .slide
+{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+.slider_inner_kitchen .inner_slider .slide1
+{
+	background-image: url(https://raw.githubusercontent.com/stevenwanderski/bxslider-4/master/docs_src/assets/img/photo2.jpeg);
+}
+.slider_inner_kitchen .inner_slider .slide2
+{
+	background-image: url(https://raw.githubusercontent.com/stevenwanderski/bxslider-4/master/docs_src/assets/img/photo3.jpeg);
+}
+.slider_inner_kitchen .inner_slider .slide3
+{
+	background-image: url(https://raw.githubusercontent.com/stevenwanderski/bxslider-4/master/docs_src/assets/img/photo5.jpeg);
+}
+.slider_inner_kitchen .arrow
+{
+	cursor: pointer;
+	position: absolute;
+	top: 55%;
+
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+.slider_inner_kitchen .arrow_left
+{
+	border-width: 30px 40px 30px 0;
+	border-color: transparent rgba(0,0,0,0.8) transparent transparent;
+	left: 0;
+	margin-left: 5%;
+}
+.slider_inner_kitchen .arrow_right
+{
+	border-width: 30px 0px 30px 40px;
+	border-color: transparent transparent transparent rgba(0,0,0,0.8);
+	right: 0;
+	margin-right: 5%;
+}*/

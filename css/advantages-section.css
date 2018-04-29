@@ -1,0 +1,109 @@
+/*advantages-section.css*/
+.advantages_section
+{
+	min-height: 100vh;
+	padding: 0;
+	-webkit-box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);
+	-moz-box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);
+	box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);
+	background-image: url(../img/besedka3.jpg);
+	background-position: center;
+	background-size: cover;
+	/*background-color: #272726;*/
+		/*-webkit-box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);
+		-moz-box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);
+		box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);*/
+}
+.advantages_section .advantage_item
+{
+	background-color: rgba(0,0,0,0.5);
+	border: 1px solid grey;
+	/*opacity: 0.6;*/
+	/*height: 14em;*/
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	padding: 2em 0;
+	/*width: 10em;*/
+	/*width: 10em;*/
+	/*padding: 1em 1em;*/
+}
+.advantages_section .advantage_item .inner
+{
+	display: flex;
+  align-items: center;
+	/*height: 100%;*/
+	/*text-align: center;*/
+
+}
+.advantages_section .advantage_item p
+{
+	padding-top: 2em;
+	text-align: center;
+	/*font-weight: bold;*/
+	text-transform: uppercase;
+	font-size: 0.8em;
+	letter-spacing: 0.1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin: 0;
+
+}
+.advantages_section .advantage_item .inner svg
+{
+	margin: 0 auto;
+	font-size: 4.5em;
+	/*color: white;*/
+}
+.advantages_section .row 
+{
+	/*background-color: rgba(0,0,0,0.5);*/
+		margin: 0 auto;
+}
+.advantages_section .row .advantages_header
+{
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 1.5em;
+
+}
+.advantages_section .row h1
+{
+	margin: 0;
+	letter-spacing: 0.1em;
+	/*font-size: 2.4em;*/
+}
+.advantages_section .h1_line
+{
+  height: 2px;
+  background-color: white;
+  width: 18%;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  margin: 0 auto;
+  /*margin-top: 2%;*/
+}
+
+@media (max-width:768px){
+	.advantages_section .advantage_item
+{
+	height: 9em;
+}
+.advantages_section .advantage_item .inner svg
+{
+	font-size: 3em;
+}
+.advantages_section .advantage_item p
+{
+	font-size: 0.5em;
+}
+	@media (max-width:624px){
+		.advantages_section .row h1
+	{
+		font-size: 1.4em;
+	}
+}
+
+}

@@ -1,0 +1,238 @@
+/*room_types.css*/
+/* ______________________standart_room_type Section______________________*/
+	.standart_room_type
+{
+
+		/*height: 100vh;*/
+		padding: 0;
+		background-color: #262727;
+	box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.80);
+
+
+}
+html body #header
+{
+	height: 10%;
+	margin: 0;
+	padding: 0;
+}
+html body #header #standart_room_typeLogo
+{
+	font-size: 2em;
+	color: white;
+	margin-top: 10px;
+}
+html body .navbar-inverse
+{
+	background:#272726;
+	/*background-color: rgba(0,0,0,0.1);*/
+	/*height: 100%;*/
+	border: none;
+	border-radius: 0;
+	/*border: 3px solid rgba(0,0,0,0.8);*/
+	margin-bottom: 0;
+	padding: 0.3em 0;
+
+}
+
+
+html body .navbar-inverse ul
+{
+	width: 100%;
+}
+html body .navbar-inverse li
+{
+	width: 16%;
+	text-align: center;
+	margin: 0 2%;
+}
+html body .navbar-inverse li a
+{
+	padding: 0 0;
+}
+html body .standart_room_type .menuItem a
+{
+	color: #c9c9c9;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	text-transform: uppercase;
+}
+
+
+
+html body .standart_room_type .menuItem a span
+{
+	font-size: 0.9em;
+}
+
+html body .standart_room_type .menuItem a:hover
+{
+	color: #ffffff;
+  	box-shadow:0px 9px 11px 0px rgba(0,0,0,0.7);
+}
+
+html body .navbar-inverse li svg
+{
+	margin-top: 5px;
+}
+html body .navbar-inverse li .fa-2x
+{
+	font-size: 1.3em;
+}
+html body .navbar-inverse .in li,html body .navbar-inverse .collapsing li
+{
+	width: 100%;
+}
+html .rooms .hide_custom
+	{
+		display: block;
+	}
+	.navbar-header{
+		padding-top: 0.5em;
+	}
+.navbar-header .navbar-toggle{
+	margin-top:0; 
+}
+
+.navbar-header a
+{
+	text-decoration: none;
+	vertical-align: center;
+	padding-left: 2em;
+	color: white;
+	display: none;
+}
+
+li.right
+{
+	float: right;
+}
+
+
+
+
+.standart_room_type .room_area
+{
+	padding-left: 4em;
+	padding-right: 4em;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	margin: 0;
+}
+html body .standart_room_type .col-lg-7
+{
+	padding-top: 5em;
+}
+.standart_room_type .room_area .room_row_item
+{
+	text-align: left;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.standart_room_type .room_area .room_row_item h1
+{
+	color: white;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-size: 1.8em;
+	text-align: center;
+	margin: 0;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	/*background-color: #262727;*/
+	margin-bottom: 0.4em;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.8);
+
+}
+.standart_room_type .second_div_desc
+{
+	max-height: 40em;
+	overflow: auto;
+	
+}
+.standart_room_type .room_area .room_row_item p
+{
+	color: white;
+	letter-spacing: 0.1em;
+	font-size: 1.1em;
+	font-weight: 200;
+	padding: 1em;
+	background-color: rgba(0,0,0,0.4);
+}
+.standart_room_type .room_area .room_row_item p strong
+{
+	text-transform: uppercase;
+}
+
+@media (max-width: 1400px){
+		.standart_room_type .room_area .room_row_item h1
+	{
+		font-size: 1.6em;
+	}
+		.standart_room_type .room_area .room_row_item p
+	{
+		
+		font-size: 1.2em;
+	}
+		
+}
+@media (max-width: 1200px){
+		html body .standart_room_type .col-lg-7
+	{
+		padding-top: 1em;
+	}
+		.standart_room_type .room_area .room_row_item h1
+	{
+		font-size: 1.4em;
+	}
+		.standart_room_type .room_area .room_row_item p
+	{
+		
+		font-size: 1.1em;
+	}
+		.standart_room_type .second_div_desc
+	{
+		max-height: 40em;
+	}
+		.standart_room_type .room_area .room_row_item
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+@media (max-width: 768px){
+		.standart_room_type .room_area .room_row_item h1
+	{
+		font-size: 1.4em;
+	}
+		.standart_room_type .second_div_desc
+	{
+		max-height: 30em;
+	}
+		.standart_room_type .room_area .room_row_item p
+	{
+		
+		font-size: 1em;
+	}
+}
+@media (max-width: 600px){
+	.standart_room_type .second_div_desc
+	{
+		max-height: 20em;
+	}
+}
+
+html .standart_room_type .hide_custom
+	{
+		display: block;
+	}
+@media (max-width:767px){
+	html .standart_room_type ul li.hide_custom
+	{
+		display: none ;
+	}
+}
+
+

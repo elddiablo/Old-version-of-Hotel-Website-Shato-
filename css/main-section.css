@@ -1,0 +1,271 @@
+/* ______________________Main Section______________________*/
+	.main
+	{
+		background-image: url(../img/main.jpg);
+
+		background-position: left top;
+		background-size: cover;
+		height: 100vh;
+		padding: 0;
+		-webkit-box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.6);
+		-moz-box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.6);
+		box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.6);
+
+	}
+html body #header
+{
+	height: 10%;
+	margin: 0;
+	padding: 0;
+}
+html body #header #mainLogo
+{
+	color: white;
+	padding-bottom: 0.3em;
+	font-size: 2.7em;
+	-webkit-transition: 0.3s all;
+	-o-transition: 0.3s all;
+	transition: 0.3s all;
+}
+html body .navbar-inverse
+{
+	background:#272726;
+	/*background-color: rgba(0,0,0,0.1);*/
+	/*height: 100%;*/
+	border: none;
+	border-radius: 0;
+	/*border: 3px solid rgba(0,0,0,0.8);*/
+	margin-bottom: 0;
+	padding: 0.3em 0;
+	-webkit-transition: 0.3s all;
+	-o-transition: 0.3s all;
+	transition: 0.3s all;
+
+}
+html body .navbar-inverse .logo_li
+{
+	float: none;
+	text-align: center;
+	display: inline-block;
+	transition: all 0.3s;
+}
+html body .navbar-inverse .logo_li_left
+{
+	float: left;
+	text-align: left;
+	display: none;
+	transition: all 0.3s;
+}
+html body .navbar-inverse .logo_li_left img
+{
+	width:1.9em;
+	position: absolute;
+	top: -20px;
+	left: 0;
+	transition: all 0.3s;
+}
+html body .navbar-inverse .logo_li img
+{
+	width:5em;
+	position: relative;
+	top: -70px;
+	transition: all 0.3s;
+}
+
+
+
+html body .navbar-inverse ul
+{
+	width: 100%;
+}
+html body .navbar-inverse li
+{
+	width: 16%;
+	text-align: center;
+	margin: 0 2%;
+}
+html body .navbar-inverse li a
+{
+	padding: 0 0;
+}
+html body .main .menuItem{
+	/*margin-top: 0.5em;*/
+}
+html body .main .menuItem a
+{
+	color: #c9c9c9;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+
+
+html body .main .menuItem a span
+{
+	font-size: 0.9em;
+}
+
+html body .main .menuItem .menuItem_a:hover
+{
+	/*color: #ffffff;
+  	box-shadow:0px 9px 11px 0px rgba(0,0,0,0.7);*/
+}
+
+html body .navbar-inverse li svg
+{
+	margin-top: 5px;
+}
+html body .navbar-inverse li .fa-2x
+{
+	font-size: 1.3em;
+}
+html body .navbar-inverse .in li,html body .navbar-inverse .collapsing li
+{
+	width: 100%;
+}
+html .rooms .hide_custom
+	{
+		display: block;
+	}
+	.navbar-header{
+		padding-top: 0.5em;
+	}
+.navbar-header .navbar-toggle{
+	margin-top:0; 
+}
+
+.navbar-header a
+{
+	text-decoration: none;
+	vertical-align: center;
+	/*padding-left: 2em;*/
+	color: white;
+	display: none;
+}
+.navbar-header 
+{
+	text-align: center;
+}
+.navbar-header .logo_title_mob span{
+	font-size: 2em;
+    font-family: 'Bad Script', cursive;
+}
+
+
+/*______________________UnderHeader______________________*/
+
+
+.underHeader
+{
+	height: 90%;
+}
+.options
+{
+	width: 95%;
+	height: 95%;
+	margin: 0 auto;
+	padding-top: 2%;
+}
+.underHeader .options .row 
+{
+	height: 50%;
+	text-align: center;
+}
+.underHeader .options .row .inRow 
+{
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;
+	border: 1px solid rgba(0,0,0,0.1);
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+		cursor: pointer;
+		z-index: 1;
+}
+.underHeader .options .row .inRow p 
+{
+	color: white;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+	font-size: 2em;
+	text-transform: uppercase;
+	-webkit-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+	z-index: -1;
+}
+.underHeader .options .row .inRow p a
+{
+	color: white;
+	text-decoration: none;
+
+}
+.underHeader .options .row .inRow .innerP
+{
+	color: white;
+	width: 80%;
+	margin: 0 auto;
+	display: none;
+	padding-top: 15%;
+	-webkit-transition: display 1s;
+	-o-transition: display 1s;
+	transition: display 1s;
+
+}
+.underHeader .options .row .inRow .turn_display_on
+{
+
+	display: block;
+	
+}
+
+@media (max-width:767px){
+	html body #header
+		{
+			height: 8%;
+			margin: 0;
+			padding: 0;
+		}
+
+		html .main ul li.hide_custom
+	{
+		display: none ;
+	}
+
+
+
+		.underHeader .options .row div 
+	{
+		height: 50% !important;
+	}
+		.underHeader .options .row div p 
+	{
+		font-size: 1.5em !important;
+	}
+	 #bs-example-navbar-collapse-1
+	 {
+	 	z-index: 10;
+	 	position: relative;
+	 	background-color: #272726;
+	 }
+	 .underHeader .options .row .inRow .innerP
+	{
+		padding-top: 5%;
+	} .underHeader .options .row .inRow .third
+	{
+		padding-top: 2%;
+	}
+	.navbar-inverse .show_custom
+{
+	display: inline-block;
+}
+html body .navbar-inverse .logo_li_left
+{
+	display: inline-block;
+}
+	
+}

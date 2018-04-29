@@ -1,0 +1,221 @@
+/*gallery.css*/
+.gallery_section
+{
+	min-height: 100vh;
+	padding: 0;
+	-webkit-box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);
+	-moz-box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);
+	box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);
+	/*background-image: url(http://1b058e7714d2d13876a1-aad8a0b816e372a2d5bdc4d902569b72.r62.cf1.rackcdn.com/XLGallery/1600x900_WonderfulDoubleQueen.jpg);*/
+	/*background-image: url(http://ad5328bdca30cc7855b5-70e319b9ce51dde062ed00e2bb19041b.r95.cf1.rackcdn.com/XLGallery/Fabulous-Deck-Room.jpg);*/
+	background-position: cover;
+	background-color: #272726;
+
+}
+.gallery_sliderspace
+{
+	padding-bottom: 9em;
+}
+.gallery_section  .load_more
+{
+  text-align: center;
+  padding: 1em 0;
+  background-color: #272726;
+  border: 1px solid rgba(255,255,255,0.4);
+  width: 10em;
+  margin: 0 auto;
+  /*border-radius: 20px;*/
+  cursor: pointer;
+  margin-top:1em;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  /*margin-bottom: 10%;*/
+}
+.gallery_section  .load_more span
+{
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  /*font-weight: bold;*/
+  letter-spacing: 0.1em;
+}
+
+.gallery_section .gallery_header
+{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	padding: 2em 0;
+	/*background-color: white;*/
+	padding-left: 1.5em;
+}
+.gallery_section .gallery_header h1
+{
+	margin: 0;
+	text-align: left;
+  letter-spacing: 0.1em;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+.gallery_section .h1_line
+{
+	height: 2px;
+	background-color: white;
+	width: 18%;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+	/*margin-top: 2%;*/
+}
+.gallery_section #masonry {
+  column-count: 2;
+  column-gap: 1em;
+}
+
+@media(min-width: 30em) {
+  .gallery_section #masonry {
+    column-count: 3;
+    column-gap: 1em;
+  }
+}
+
+@media(min-width: 40em) {
+  .gallery_section #masonry {
+    column-count: 4;
+    column-gap: 1em;
+  }
+}
+
+@media(min-width: 60em) {
+  .gallery_section #masonry {
+    column-count: 5;
+    column-gap: 1em;
+  }
+}
+
+@media(min-width: 75em) {
+  .gallery_section #masonry {
+    column-count: 6;
+    column-gap: 1em;
+  }
+}
+
+.gallery_section .item {
+  background-color: none;
+  display: inline-block;
+  margin: 0 0 1em 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.gallery_section .item img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  margin-bottom: -4px;
+  z-index: 20;
+  
+  /*idk why but this fix stuff*/
+}
+
+.gallery_section .item.active {
+  animation-name: active-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+
+.gallery_section .item.active:before {
+  content: "+";
+  transform: rotate(45deg);
+  font-size: 48px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color:rgba(0,0,0,0.85);
+  border-radius: 50%;
+  width:48px;
+  height:48px;
+  text-align:center;
+  line-height:48px;
+  z-index:12;
+}
+
+.gallery_section .item.active img {
+  animation-name: active-in-img;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+
+  -webkit-animation: active-in-img 1s alternate;
+  
+}
+
+
+@keyframes active-in {
+  0% {
+    opacity:1;
+    background-color:white;
+  }
+  
+  50% {
+    opacity:0;
+    background-color:rgba(0,0,0,0.90);
+  }
+  
+  100% {
+    opacity: 1;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgba(0,0,0,0.90);
+    z-index: 100;
+    
+  }
+}
+
+@keyframes active-in-img {
+  0% {
+    opacity:1;
+    transform:translate(0%, 0%);
+    top: 0;
+    left: 0;
+    max-width: 100%;
+  }
+  49% {
+    opacity:0;
+    transform: translate(0%, -50%);
+  }
+  50% {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+  }
+  100% {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  width: auto;
+  max-height: 95vh;
+  opacity:1;
+  
+  }
+}
+
+
+@media (max-width: 768px){
+    .gallery_section .gallery_header h1
+  {
+    font-size: 2em;
+  }
+}

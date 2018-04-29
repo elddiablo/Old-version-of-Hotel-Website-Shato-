@@ -1,0 +1,158 @@
+/* ______________________book_page Section______________________*/
+	.book_page
+{
+
+		height: 100vh;
+		padding: 0;
+		background-color: #262727;
+	box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.80);
+
+
+}
+html body #header
+{
+	height: 10%;
+	margin: 0;
+	padding: 0;
+}
+html body #header #book_pageLogo
+{
+	font-size: 2em;
+	color: white;
+	margin-top: 10px;
+}
+html body .navbar-inverse
+{
+	background:#272726;
+	/*background-color: rgba(0,0,0,0.1);*/
+	/*height: 100%;*/
+	border: none;
+	border-radius: 0;
+	/*border: 3px solid rgba(0,0,0,0.8);*/
+	margin-bottom: 0;
+	padding: 0.3em 0;
+
+}
+
+
+html body .navbar-inverse ul
+{
+	width: 100%;
+}
+html body .navbar-inverse li
+{
+	width: 16%;
+	text-align: center;
+	margin: 0 2%;
+}
+html body .navbar-inverse li a
+{
+	padding: 0 0;
+}
+html body .book_page .menuItem a
+{
+	color: #c9c9c9;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	text-transform: uppercase;
+}
+
+
+
+html body .book_page .menuItem a span
+{
+	font-size: 0.9em;
+}
+
+html body .book_page .menuItem a:hover
+{
+	color: #ffffff;
+  	box-shadow:0px 9px 11px 0px rgba(0,0,0,0.7);
+}
+
+html body .navbar-inverse li svg
+{
+	margin-top: 5px;
+}
+html body .navbar-inverse li .fa-2x
+{
+	font-size: 1.3em;
+}
+html body .navbar-inverse .in li,html body .navbar-inverse .collapsing li
+{
+	width: 100%;
+}
+html .rooms .hide_custom
+	{
+		display: block;
+	}
+	.navbar-header{
+		padding-top: 0.5em;
+	}
+.navbar-header .navbar-toggle{
+	margin-top:0; 
+}
+
+.navbar-header a
+{
+	text-decoration: none;
+	vertical-align: center;
+	padding-left: 2em;
+	color: white;
+	display: none;
+}
+
+.form_section 
+{
+	width: 20em;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 7em;
+}
+.form_section input
+{
+	margin: 0;
+	border-radius: 5px;
+}
+.form_section p 
+{
+	margin: 0;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	padding: 0.5em 0;
+}
+.form_section button 
+{
+	display: block;
+	padding: 0.6em 1em;
+	margin: 0 auto;
+	margin-top: 2em;
+	border-radius: 5px;
+	color: white;
+	background-color: #272726;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	border: 1px solid rgba(0,0,0,0.3);
+	letter-spacing: 0.1em;
+}
+li.right
+{
+	float: right;
+}
+
+
+
+
+html .book_page .hide_custom
+	{
+		display: block;
+	}
+@media (max-width:767px){
+	html .book_page ul li.hide_custom
+	{
+		display: none ;
+	}
+}

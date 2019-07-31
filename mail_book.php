@@ -4,10 +4,10 @@ require_once('phpmailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;
 $mail->CharSet = 'utf-8';
 
-$name = $_POST['name'];
-$phone = $_POST['phone'];
-$room_type = $_POST['room_type'];
-$date = $_POST['date'];
+$name = (string)$_POST['name'];
+$phone = (string)$_POST['phone'];
+$room_type = (string)$_POST['room_type'];
+$date = (string)$_POST['date'];
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP

@@ -25,11 +25,6 @@ $(menu_trans_buttons[3]).on('click', function() {
 	        1000);
 });
 
-
-
-
-
-
 var divs_kitchen_0 = divs[0];
 var divs_rooms_1 = divs[1];
 var divs_advantages_2 = divs[2];
@@ -74,7 +69,7 @@ $(divs_gallery_5).on('click', function() {
 });
 
 
-if(scrWidth>768){
+if(scrWidth > 768){
 	divs.hover(function() {
 	// this.style.backgroundColor = "black";
 	$(this).css('background-color', 'black');
@@ -433,26 +428,16 @@ $(rooms_desc_h1).hover(function() {
 		  var y = $(this).scrollTop();
 		  var x;
 		 if(scrWidth > 768){
-          x = 3400;
+          x = 2000;
 
 
-		  if (y > x) {
-		    kitchen_h1.fadeIn(700);
+		  kitchen_h1.fadeIn(700);
 		    kitchen_h1_line.fadeIn(1000);
 		    kitchen_h1_line.css('width', '80%');
 		    kitchen_h1.css('padding', '2% 0%');
 		    kitchen_h1.css('padding-left', '2%');
 		    kitchen_slider.fadeIn(1000);
 		    kitchen_describtion.fadeIn(1000);
-
-		  } else {
-		    kitchen_h1.fadeOut(1000);
-		   	kitchen_h1_line.fadeOut(700);
-		    kitchen_h1_line.css('width', '40%');
-		    kitchen_h1.css('padding', '0%');
-		    kitchen_slider.fadeOut(1000);
-		    kitchen_describtion.fadeOut(1000);
-		  }
 		}
 		else
 		{
@@ -477,24 +462,14 @@ $(rooms_desc_h1).hover(function() {
 		  var y = $(this).scrollTop();
 		  var x;
 		  if(scrWidth > 768){
-          x = 4150;
-		  if (y > x) {
-		    territory_h1.fadeIn(700);
-		    territory_h1_line.fadeIn(1000);
-		    territory_h1_line.css('width', '80%');
+          x = 200; //4150
+		  territory_h1.show();
+		    territory_h1_line.show();
+		    territory_h1_line.css('width', '100%');
 		    territory_h1.css('padding', '2% 0%');
 		    territory_h1.css('padding-left', '2%');
-		    territory_slider.fadeIn(1000);
-		    territory_describtion.fadeIn(1000);
-
-		  } else {
-		    territory_h1.fadeOut(1000);
-		    territory_h1_line.fadeOut(700);
-		    territory_h1_line.css('width', '40%');
-		    territory_h1.css('padding', '0%');
-		    territory_slider.fadeOut(1000);
-		    territory_describtion.fadeOut(1000);
-		  }
+		    territory_slider.show();
+		    territory_describtion.show();
 		}
 		else{
 			territory_h1.show();

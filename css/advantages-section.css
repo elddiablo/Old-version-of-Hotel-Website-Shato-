@@ -2,7 +2,7 @@
 .advantages_section
 {
 	min-height: 100vh;
-	padding: 0;
+	padding: 2em 0;
 	-webkit-box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);
 	-moz-box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);
 	box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);

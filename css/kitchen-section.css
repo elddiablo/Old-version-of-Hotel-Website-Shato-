@@ -3,16 +3,18 @@
 {
 
 	min-height: 100vh;
-	padding: 0;
-	-webkit-box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);
-	-moz-box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);
-	box-shadow: inset 0px 0px 216px 200px rgba(0,0,0,0.81);
-	/*background-image: url(http://1b058e7714d2d13876a1-aad8a0b816e372a2d5bdc4d902569b72.r62.cf1.rackcdn.com/XLGallery/1600x900_WonderfulDoubleQueen.jpg);*/
-	/*background-image: url(http://ad5328bdca30cc7855b5-70e319b9ce51dde062ed00e2bb19041b.r95.cf1.rackcdn.com/XLGallery/Fabulous-Deck-Room.jpg);*/
-	background-position: cover;
-	background-color: #272726;
-	padding-bottom: 2em;
-
+  padding: 0;
+  /*-webkit-box-shadow: inset 0px 0px 57px 27px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 57px 27px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 57px 27px rgba(0,0,0,0.75);*/
+-webkit-box-shadow: inset 0px 0px 52px 42px rgba(0,0,0,1);
+-moz-box-shadow: inset 0px 0px 52px 42px rgba(0,0,0,1);
+box-shadow: inset 0px 0px 52px 42px rgba(0,0,0,1);
+  /*background-image: url(http://1b058e7714d2d13876a1-aad8a0b816e372a2d5bdc4d902569b72.r62.cf1.rackcdn.com/XLGallery/1600x900_WonderfulDoubleQueen.jpg);*/
+  /*background-image: url(http://ad5328bdca30cc7855b5-70e319b9ce51dde062ed00e2bb19041b.r95.cf1.rackcdn.com/XLGallery/Fabulous-Deck-Room.jpg);*/
+  /*background-position: cover;*/
+  background-color: rgba(0,0,0,0.1);
+  padding-bottom: 2em;
 }
 
 .kitchen .custom_height
@@ -41,7 +43,7 @@
 {
 	margin: 0;
 	text-transform: uppercase;
-	color: white;
+	color: black;
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
@@ -50,7 +52,7 @@
 .kitchen .title_inner_kitchen .h1_line
 {
 	height: 2px;
-	background-color: white;
+	background-color: black;
 	width: 18%;
 	-webkit-transition: all 1s;
 	-o-transition: all 1s;
@@ -59,16 +61,20 @@
 }
 .kitchen .describtion_inner_kitchen
 {
-	/*border: 1px dashed white;*/
-	background-color: rgba(0,0,0,0.5);
-	overflow: auto;
-	height: 40em;
+	/*border: 1px dashed black;*/
+  /*background-color: rgba(0,0,0,0.5);*/
+  overflow: auto;
+  height: 45em;
+  /*border: 5px solid rgba(0,0,0,0.3);*/
+  -webkit-box-shadow: 0px 0px 22px 10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 22px 10px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 22px 10px rgba(0,0,0,0.75);
 }
 .kitchen .describtion_inner_kitchen h1
 {
 	text-align: center;
 	text-transform: uppercase;
-	color: white;
+	color: black;
 	margin: 0;
 	padding-top: 1em;
 	font-size: 2em;
@@ -78,13 +84,20 @@
 { 
 	padding-top: 1em;
 	font-size: 1.5em;
-	color: white;
+	color: black;
 	font-weight: light;
 	/*height: 55%;*/
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-bottom: 0;
 
+}
+#kitchen
+{
+   -webkit-box-shadow: 0px 54px 29px -25px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 54px 29px -25px rgba(0,0,0,0.75);
+box-shadow: 0px 54px 29px -25px rgba(0,0,0,0.75);
+border: 2px solid black;
 }
 
 .kitchen .describtion_inner_kitchen ul
@@ -96,7 +109,7 @@
 }
 .kitchen .describtion_inner_kitchen ul li
 {
-	color: white;
+	color: black;
 	font-size: 1.3em;
 
 }
@@ -235,7 +248,7 @@
 	}
 	html body .kitchen .describtion_inner_kitchen ul li
 	{
-		color: white;
+		color: black;
 		font-size: 1.2em;
 
 	}
@@ -300,7 +313,7 @@
 .slider_inner_kitchen .inner_slider .slide_content span
 {
 	font-size: 5rem;
-	color: white;
+	color: black;
 }
 .slider_inner_kitchen .inner_slider .slide
 {

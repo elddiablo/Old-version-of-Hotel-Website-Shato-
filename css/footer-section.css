@@ -6,7 +6,7 @@
 	/*background-image: url(http://1b058e7714d2d13876a1-aad8a0b816e372a2d5bdc4d902569b72.r62.cf1.rackcdn.com/XLGallery/1600x900_WonderfulDoubleQueen.jpg);*/
 	/*background-image: url(http://ad5328bdca30cc7855b5-70e319b9ce51dde062ed00e2bb19041b.r95.cf1.rackcdn.com/XLGallery/Fabulous-Deck-Room.jpg);*/
 	background-position: cover;
-	 background-color: rgba(0,0,0,0.1);
+	background-color: rgba(0,0,0,0.1);
 	font-size: smaller;
 }
 .footer .first
@@ -16,6 +16,7 @@
 .footer .second
 {
 	text-align: right;
+	padding: 1em 2em;
 }
 .footer .row
 {
@@ -23,6 +24,9 @@
 	display: flex;
 	align-items:center;
 	/*padding-top: 1em;*/
+}
+.footer .row .first, .footer .row .second, .footer .row .third{
+	/*height: 100%;*/
 }
 
 .footer .row .inner_row h1{
@@ -197,4 +201,10 @@ html body .footer .submit_button button
 		font-size: 0.7em;
 		/*font-weight: bold;*/
 	}
+
+}
+@media (max-width: 605px){
+	 html body .footer .row .third{
+	 	/*height: 18em;*/
+	 }
 }

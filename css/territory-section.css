@@ -99,9 +99,12 @@ box-shadow: 0px 0px 22px 10px rgba(0,0,0,0.75);
 .territory .describtion_inner_territory ul
 {
   padding: 0;
-  padding-left: 2.5em;
+  padding-left: 2em;
   margin: 0;
   padding-top: 1em;
+  padding-bottom: 1em;
+  list-style-type: none;
+  padding-right: 2em;
 }
 .territory .describtion_inner_territory ul li
 {
@@ -294,84 +297,3 @@ border: 2px solid black;
 
 
 
-
-
-
-
-
-/*____________________SLIDER____________________*/
-/*
-.slider_inner_territory .inner_slider
-{
-  width: 100%;
-  height: 50em;
-  overflow-x: hidden;
-  
-}
-.slider_inner_territory .inner_slider .slide_content
-{
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
-.slider_inner_territory .inner_slider .slide_content
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.slider_inner_territory .inner_slider .slide_content span
-{
-  font-size: 5rem;
-  color: black;
-}
-.slider_inner_territory .inner_slider .slide
-{
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  -webkit-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
-}
-.slider_inner_territory .inner_slider .slide1
-{
-  background-image: url(https://raw.githubusercontent.com/stevenwanderski/bxslider-4/master/docs_src/assets/img/photo2.jpeg);
-}
-.slider_inner_territory .inner_slider .slide2
-{
-  background-image: url(https://raw.githubusercontent.com/stevenwanderski/bxslider-4/master/docs_src/assets/img/photo3.jpeg);
-}
-.slider_inner_territory .inner_slider .slide3
-{
-  background-image: url(https://raw.githubusercontent.com/stevenwanderski/bxslider-4/master/docs_src/assets/img/photo5.jpeg);
-}
-.slider_inner_territory .arrow
-{
-  cursor: pointer;
-  position: absolute;
-  top: 55%;
-
-  width: 0;
-  height: 0;
-  border-style: solid;
-}
-.slider_inner_territory .arrow_left
-{
-  border-width: 30px 40px 30px 0;
-  border-color: transparent rgba(0,0,0,0.8) transparent transparent;
-  left: 0;
-  margin-left: 5%;
-}
-.slider_inner_territory .arrow_right
-{
-  border-width: 30px 0px 30px 40px;
-  border-color: transparent transparent transparent rgba(0,0,0,0.8);
-  right: 0;
-  margin-right: 5%;
-}*/
